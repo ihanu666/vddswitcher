@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(vddswitcher VERSION 0.2.1 LANGUAGES C CXX)
+project(vddswitcher VERSION 0.2.2 LANGUAGES C CXX)
 
 add_executable(vddswitcherd vddswitcherd.cpp)
 add_executable(vddswitcher vddswitcher.cpp)
