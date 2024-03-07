@@ -41,7 +41,7 @@
 
 `cmd /C "D:\game\utils\vddswitcher\vddswitcherd.exe"  -x %SUNSHINE_CLIENT_WIDTH% -y %SUNSHINE_CLIENT_HEIGHT% -r %SUNSHINE_CLIENT_FPS%`
 
-Undo Command 栏填入 `cmd /C "vddswitcherd.exe的路径"`
+Undo Command 栏填入 `cmd /C "vddswitcher.exe的路径"`
 
 例如:
 
