@@ -1,4 +1,4 @@
-## 目录
+# 目录
 - [介绍](#关于vddswitcher)
 - [使用方法](#使用方法)
 - [支持的分辨率](#支持的分辨率)
@@ -49,6 +49,8 @@
 进入显示器配置页，将虚拟显示器外的其他显示器禁用来节约能源。
 
 ## 支持的分辨率
+
+[Preset display modes](https://github.com/nomi-san/parsec-vdd/blob/main/docs/PARSEC_VDD_SPECS.md#preset-display-modes)
 
 | Resolution      | Common Name |    Aspect Ratio    |  Refresh Rates (Hz)  |
 | --------------- | :---------: | :----------------: | :------------------: |
