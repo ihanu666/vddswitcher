@@ -30,6 +30,8 @@
 
 在打开的终端窗口中输入 `cmd /C "vddswitcherd.exe的路径" -x "你的主显示器像素宽度" -y "你的主显示器像素高度" -r "你的主显示器刷新率"`
 
+- 例如 `cmd /C "D:\Program Files\Sunshine\vddswitcher\vddswitcherd.exe" -x 1920 -y 1080 -r 60`
+
 此时将创建一个和你主显示器相同分辨率的虚拟显示器。
 
 进入显示器配置页，选择创建出来的虚拟显示器，勾选设置为主显示器。(注意，此操作将会让你的桌面变得奇怪，但是这一切都是可以恢复的)
@@ -42,7 +44,11 @@
 
 点击添加命令，在 打开时执行命令 填入 `cmd /C "vddswitcherd.exe的路径" -x %SUNSHINE_CLIENT_WIDTH% -y %SUNSHINE_CLIENT_HEIGHT% -r %SUNSHINE_CLIENT_FPS%`
 
+- 例如 `cmd /C "D:\Program Files\Sunshine\vddswitcher\vddswitcherd.exe" -x %SUNSHINE_CLIENT_WIDTH% -y %SUNSHINE_CLIENT_HEIGHT% -r %SUNSHINE_CLIENT_FPS%`
+
 退出应用时要执行的命令 填入 `cmd /C "vddswitcher.exe的路径"`
+
+- 例如 `cmd /C "D:\Program Files\Sunshine\vddswitcher\vddswitcher.exe"`
 
 保存，等待重启后，使用 Moonlight 进入桌面。
 
