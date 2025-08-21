@@ -99,4 +99,4 @@ Windows Registry Editor Version 5.00
 "height"=dword:0000043c
 "hz"=dword:0000003c
 ```
-![示例](屏幕截图-注册表编辑器_2025-08-21_21-02-03.png)
+![示例](image/屏幕截图-注册表编辑器_2025-08-21_21-02-03.png)
